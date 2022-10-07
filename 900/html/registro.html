@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+      <div class="container">
+        <div class="form2">
+          <div class="titulo">
+            <img id="img" src="#" >
+          </div>
+      <form id="formularioR" name="formularioR">
+        <div class="row">
+          <div class="col-xd-12 col-sm-6">
+            <label for="register-form" id="email">Email</label><br>
+            <input type="email" id="emailR" class="register" name="emailR" placeholder="Email" required><br>
+            <label for="register-form" id="nombre">Nombre</label><br>
+            <input type="text" id="nombreR" class="register" name="nombreR" placeholder="Nombre"required>
+            <br><br>
+            <select class="form-select form-select-sm" id="paisR" name="paisR" aria-label="Default select example">
+              <option selected>Colombia</option>
+              <option value="1">Venezuela</option>
+              <option value="2">Argentina</option>
+            </select>
+        </div>
+        
+          <div class="col-sm-6">
+            <label for="register-form" id="entidad">Entidad</label><br>
+            <input type="text" id="entidadR" class="register" name="entidadR" placeholder="Entidad" required><br>
+            <label for="register-form" id="password">Password</label><br>
+            <input type="password" id="passwordR" class="register" name="passwordR" placeholder="Password" required>
+            <br><br>
+            
+              <button type="submit" class="btn btn-primary" value="registrar" id="registrar">Registrarte</button>
+          </div>
+        
+        </div>
+        </div>
+      </form>
+    </div>
+    
+    <script src="../js/registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
